@@ -32,8 +32,9 @@ body{
     font-weight: bold;
 }
 .Overview{
-    font-family: 1.25rem;
+    font-size: 1.25rem;
     font-weight: lighter;
+    font-family:'Times New Roman', Times, serif;
 }
 .Video{
     height: 45vh;
@@ -158,19 +159,19 @@ a{
 }
 @media  screen and (max-width:560px) {
     .navbar a{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .navbar{
-        padding:0.5rem 1rem;
+        padding:0.7rem 1.5rem;
     }
     .navbar div{
         gap: .5rem;
     }
     .main{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .top_content{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     img{
         top: 30px;
@@ -181,16 +182,16 @@ a{
        
     }
     .second_content h2{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .second_content{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .footer h2{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .footer a{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .sidebar{
         display: none;
@@ -204,10 +205,10 @@ a{
         
     }
     .Title{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     .Overview{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     
     
