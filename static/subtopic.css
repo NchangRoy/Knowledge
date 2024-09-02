@@ -7,6 +7,10 @@ body{
     min-height: 100vh;
     min-width: 100vw;
 }
+.message{
+    color: #0D8D50;
+    font-weight: bold;
+}
 .body{
     padding-left: 2rem;
     display: grid;
