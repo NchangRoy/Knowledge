@@ -18,7 +18,7 @@ def topic(request,sub):
     return render(request,'topic.html',{'topic_sub':topic_sub,'sub':sub})
 def subtopics(request,pk):
     Current_Subtopic=subtopic.objects.get(id=pk)
-    messages.info('Rotate for a better experience')
+    messages.info(request,'Rotate for a better experience')
     Subtopics_of_topic=subtopic.objects.filter(Topic__Topic=Current_Subtopic.Topic.Topic).order_by("id")
     return render(request,'subtopic.html',{'subtopic':Current_Subtopic,'subtopics_of_topic':Subtopics_of_topic})
 def nextpage(request,pk,sometext):
